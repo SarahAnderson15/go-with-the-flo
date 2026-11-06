@@ -1,10 +1,7 @@
-function App(){
-  return (
-    <>
-      <h1>Go With The Flo Dog Services</h1>
-      <p> Profeessional Dog Walking & Pet Care</p>
-    </>
-  )
+import Home from "./pages/Home";
+
+function App() {
+  return <Home />;
 }
 
-export default App
+export default App;
