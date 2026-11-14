@@ -3,13 +3,13 @@ import logoWhite from "../assets/Flo-logo-white.png";
 function Home(){
   return (
         <div className="home">
-        <header>
+          <header>
             <img 
             src={logoWhite} 
             alt="Go with the flo Logo"
             className="logo"
             />
-        </header>
+         </header>
             
             <h1>Go With the Flo</h1>
             <h2>Professional Dog Walking & Pet Care Services</h2>
@@ -19,6 +19,20 @@ function Home(){
                 <span>|</span>
                 <a href="mailto:helloflok9@gmail.com? subject=Dog%20Walking%20Enquiry">helloflok9@gmail.com</a>
             </div>
+            <nav className="main-menu">
+               <a href="/">Home</a>
+               <span>|</span>
+               <a href="/">About</a>
+               <span>|</span>
+               <a href="/">Services</a>
+               <span>|</span>
+               <a href="/">Prices</a>
+               <span>|</span>
+               <a href="/">Gallery</a>
+               <span>|</span>
+               <a href="/">Contact</a>
+            </nav>
+        
             
         </div>
     );
